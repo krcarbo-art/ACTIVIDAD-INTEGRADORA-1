@@ -16,7 +16,6 @@ nav {
     border-radius: 20px;
     margin: 10px;
 }
-
 /* Opciones del menú */
 .menu {
     list-style: none;
@@ -26,7 +25,6 @@ nav {
     margin: 0;
     padding: 0;
 }
-
 /* Enlaces del menú */
 .menu a {
     display: block;
@@ -42,8 +40,13 @@ nav {
     background-color: orange;
     color: black;
 }
-/* Fotografía del portafolio */
 
+
+
+/* =====================================
+   PÁGINA INICIO
+===================================== */
+/* Fotografía del portafolio */
 .foto-perfil {
     width: 200px;
     height: 200px;
@@ -54,11 +57,10 @@ nav {
     box-shadow: 0 4px 10px gray;
 }
 /* =====================================
-    SOBRE MÍ
+     PAGINA SOBRE MÍ
 ===================================== */
 
 /* Título Sobre mí */
-
 .titulo-sobremi {
     background-color: #7952b3;
     color: white;
@@ -108,8 +110,17 @@ nav {
 }
 
 /* =====================================
-    HABILIDADES
+   PAGINA  HABILIDADES
 ===================================== */
+/* Título principal de Habilidades */
+.titulo-habilidades {
+    background-color: #7952b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
 
 /* Recuadro de habilidades */
 #habilidades {
@@ -147,4 +158,45 @@ nav {
 .habilidad:hover {
     background-color: #e89b25;
     color: black;
+}
+
+/* =====================================
+   PÁGINA PROYECTOS
+===================================== */
+/* Título principal de Proyectos */
+.titulo-proyectos {
+    background-color: #7952b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+/* Recuadro de proyectos */
+
+#proyectos {
+    background-color: #f3eafb;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 20px;
+}
+/* Título de proyectos */
+#proyectos h2 {
+    color: #7952b3;
+    font-size: 28px;
+    text-align: center;
+}
+/* Tarjeta de proyectos */
+.proyecto {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px #00000020;
+}
+/* Título de cada proyecto */
+.proyecto h3 {
+    color: #7952b3;
+    font-size: 22px;
+    text-align: center;
 }
