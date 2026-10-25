@@ -54,6 +54,16 @@ nav {
 /* =====================================
    PÁGINA INICIO
 ===================================== */
+
+#inicio {
+    background-color: var(--color-fondo);
+    padding: 25px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+
 /* Fotografía del portafolio */
 .foto-perfil {
     width: 200px;
