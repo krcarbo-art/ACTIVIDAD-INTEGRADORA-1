@@ -10,7 +10,7 @@
    ENCABEZADO
 ===================================== */
 .title {
-    color: #7952b3;
+    color: var(--color-principal);
 }
 
 
@@ -19,7 +19,7 @@
    2. MENÚ DE NAVEGACIÓN
 ===================================== */
 nav {
-    background-color: #7952b3;
+    background-color: var(--color-principal);
     padding: 15px;
     border-radius: 20px;
     margin: 10px;
@@ -70,7 +70,7 @@ nav {
 
 /* Título Sobre mí */
 .titulo-sobremi {
-    background-color: #7952b3;
+    background-color: var(--color-principal);
     color: white;
     text-align: center;
     padding: 20px;
@@ -122,7 +122,7 @@ nav {
 ===================================== */
 /* Título principal de Habilidades */
 .titulo-habilidades {
-    background-color: #7952b3;
+    background-color: var(--color-principal);
     color: white;
     text-align: center;
     padding: 20px;
@@ -154,7 +154,7 @@ nav {
 
 /* Diseño de cada habilidad */
 .habilidad {
-    background-color: #7952b3;
+   background-color: var(--color-principal);
     color: white;
     padding: 20px;
     border-radius: 15px;
@@ -173,7 +173,7 @@ nav {
 ===================================== */
 /* Título principal de Proyectos */
 .titulo-proyectos {
-    background-color: #7952b3;
+    background-color: var(--color-principal);
     color: white;
     text-align: center;
     padding: 20px;
@@ -213,7 +213,7 @@ nav {
 ===================================== */
 /* Título principal de Contacto */
 .titulo-contacto {
-    background-color: #7952b3;
+    background-color: var(--color-principal);
     color: white;
     text-align: center;
     padding: 20px;
