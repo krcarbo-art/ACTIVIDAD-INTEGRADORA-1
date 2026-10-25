@@ -1,8 +1,15 @@
-/* 1. ENCABEZADO */
+/* =====================================
+   ENCABEZADO
+===================================== */
 .title {
     color: #7952b3;
 }
-/* MENU DE NAVEGACION */
+
+
+
+/* =====================================
+   2. MENÚ DE NAVEGACIÓN
+===================================== */
 nav {
     background-color: #7952b3;
     padding: 15px;
@@ -46,7 +53,11 @@ nav {
     margin: 20px auto;
     box-shadow: 0 4px 10px gray;
 }
-/* Sección Sobre mí */
+/* =====================================
+    SOBRE MÍ
+===================================== */
+
+/* Título Sobre mí */
 
 .titulo-sobremi {
     background-color: #7952b3;
@@ -63,7 +74,7 @@ nav {
 }
 
 #sobremi h2 {
-    color: #1e4f73;
+    color: #7952b3;
     font-size: 28px;
     text-align: center;
 }
@@ -96,16 +107,20 @@ nav {
     flex: 1 1 280px;
 }
 
-/* Sección de habilidades */
+/* =====================================
+    HABILIDADES
+===================================== */
+
+/* Recuadro de habilidades */
 #habilidades {
-    background-color: #f1f5f9;
+    background-color: #f3eafb;
     padding: 25px;
     margin: 20px;
     border-radius: 20px;
 }
 
 #habilidades h2 {
-    color: #1e4f73;
+    color: #7952b3;
     font-size: 28px;
     text-align: center;
 }
@@ -120,7 +135,7 @@ nav {
 
 /* Diseño de cada habilidad */
 .habilidad {
-    background-color: #1e4f73;
+    background-color: #7952b3;
     color: white;
     padding: 20px;
     border-radius: 15px;
