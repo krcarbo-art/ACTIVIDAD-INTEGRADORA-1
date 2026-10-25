@@ -9,8 +9,28 @@
 /* =====================================
    ENCABEZADO
 ===================================== */
+/* Encabezado de la página Inicio */
+header:has(.title) {
+    background-color: var(--color-fondo);
+border-radius: 20px;
+padding: 20px;
+margin: 20px;
+}
 .title {
     color: var(--color-principal);
+ text-align: center;
+margin-bottom: 10px;
+    
+}
+
+header h2 {
+    text-align: center;
+     color: var(--color-principal);
+}
+
+/* Carrera y universidad */
+header p {
+    text-align: center;
 }
 
 
@@ -62,7 +82,15 @@ nav {
     margin: 20px;
 
 }
-
+#inicio h2 {
+    color: var(--color-principal);
+    text-align: center;
+    font-size: 28px;
+}
+#inicio p {
+    color: var(--color-texto);
+    text-align: center;
+}
 
 /* Fotografía del portafolio */
 .foto-perfil {
