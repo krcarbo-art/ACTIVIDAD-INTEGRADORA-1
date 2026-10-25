@@ -1,7 +1,8 @@
+/* 1. ENCABEZADO */
 .title {
     color: #7952b3;
 }
-/* Menú de navegación */
+/* MENU DE NAVEGACION */
 nav {
     background-color: #7952b3;
     padding: 15px;
@@ -47,6 +48,13 @@ nav {
 }
 /* Sección Sobre mí */
 
+.titulo-sobremi {
+    background-color: #7952b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px; }
 #sobremi {
     background-color: #f3eafb;
     padding: 25px;
@@ -87,13 +95,7 @@ nav {
 .texto-sobremi {
     flex: 1 1 280px;
 }
-.titulo-sobremi {
-    background-color: #7952b3;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    border-radius: 20px;
-    margin: 20px; }
+
 /* Sección de habilidades */
 #habilidades {
     background-color: #f1f5f9;
