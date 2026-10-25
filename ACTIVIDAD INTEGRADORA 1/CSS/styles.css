@@ -45,7 +45,7 @@ nav {
 
 /* Efecto al pasar el mouse */
 .menu a:hover {
-    background-color: orange;
+   background-color: var(--color-hover);
     color: black;
 }
 
@@ -77,20 +77,20 @@ nav {
     border-radius: 20px;
     margin: 20px; }
 #sobremi {
-    background-color: #f3eafb;
+    background-color: var(--color-fondo);
     padding: 25px;
     margin: 20px;
     border-radius: 20px;
 }
 
 #sobremi h2 {
-    color: #7952b3;
+  color: var(--color-principal);
     font-size: 28px;
     text-align: center;
 }
 
 #sobremi p {
-    color: #243746;
+    color: var(--color-texto);
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
@@ -132,14 +132,14 @@ nav {
 
 /* Recuadro de habilidades */
 #habilidades {
-    background-color: #f3eafb;
+    background-color: var(--color-fondo);
     padding: 25px;
     margin: 20px;
     border-radius: 20px;
 }
 
 #habilidades h2 {
-    color: #7952b3;
+    color: var(--color-principal);
     font-size: 28px;
     text-align: center;
 }
@@ -164,7 +164,7 @@ nav {
 
 /* Efecto al pasar el mouse */
 .habilidad:hover {
-    background-color: #e89b25;
+    background-color: var(--color-hover);
     color: black;
 }
 
@@ -183,14 +183,14 @@ nav {
 /* Recuadro de proyectos */
 
 #proyectos {
-    background-color: #f3eafb;
+    background-color: var(--color-fondo);
     padding: 25px;
     margin: 20px;
     border-radius: 20px;
 }
 /* Título de proyectos */
 #proyectos h2 {
-    color: #7952b3;
+    color: var(--color-principal);
     font-size: 28px;
     text-align: center;
 }
@@ -204,7 +204,7 @@ nav {
 }
 /* Título de cada proyecto */
 .proyecto h3 {
-    color: #7952b3;
+    color: var(--color-principal);
     font-size: 22px;
     text-align: center;
 }
@@ -222,7 +222,7 @@ nav {
 }
 /* Recuadro del formulario */
 #contacto {
-    background-color: #f3eafb;
+   background-color: var(--color-fondo);
     padding: 25px;
     margin: 20px;
     border-radius: 20px;
@@ -230,16 +230,37 @@ nav {
 
 /* Título del formulario */
 #contacto h2 {
-    color: #7952b3;
+    color: var(--color-principal);
     font-size: 28px;
     text-align: center;
 }
 
-/* Organizar el formulario verticalmente */
+/* Organizar el formulario */
 #contacto form {
     display: flex;
     flex-direction: column;
     gap: 10px;
     max-width: 500px;
     margin: 0 auto;
+}
+
+/* =====================================
+   DISEÑO RESPONSIVE
+===================================== */
+
+/* celulares */
+@media (max-width: 700px) {
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+ #sobremi,
+    #habilidades,
+    #proyectos,
+    #contacto {
+        margin: 10px;
+        padding: 15px;
+    }
 }
