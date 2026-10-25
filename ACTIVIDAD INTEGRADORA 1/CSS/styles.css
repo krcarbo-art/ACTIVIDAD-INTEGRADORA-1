@@ -34,3 +34,14 @@ nav {
     background-color: orange;
     color: black;
 }
+/* Fotografía del portafolio */
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px gray;
+}
