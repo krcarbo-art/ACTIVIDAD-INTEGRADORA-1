@@ -243,7 +243,17 @@ nav {
     max-width: 500px;
     margin: 0 auto;
 }
-
+/* =====================================
+   PIE DE PÁGINA
+===================================== */
+footer {
+    background-color: var(--color-principal);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
 /* =====================================
    DISEÑO RESPONSIVE
 ===================================== */
@@ -263,4 +273,14 @@ nav {
         margin: 10px;
         padding: 15px;
     }
+    /* Adaptar fotografía y textos */
+.contenedor-sobremi {
+    flex-direction: column;
+}
+    .foto-sobremi {
+    max-width: 100%;
+}
+    .foto-perfil {
+    max-width: 100%;
+}
 }
